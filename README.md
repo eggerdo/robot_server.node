@@ -10,7 +10,7 @@ The format of the command, video and event messages is described in the protocol
 
 Run the Robot Server by calling
 
-	$ node robot_server
+	$ node robot_server.node
 
 This will use the following ports:
 
@@ -25,6 +25,6 @@ This will use the following ports:
 	- In 4020
 	- Out 4021
 
-Alternatively, the incoming ports can be specified as command line arguments `node robot_server VIDEO_PORT COMMAND_PORT EVENT_PORT`. The outgoing ports will be set to incoming port + 1 (and incoming port + 2 for Base64 video messages).
+Alternatively, the incoming ports can be specified as command line arguments `node robot_server.node VIDEO_PORT COMMAND_PORT EVENT_PORT`. The outgoing ports will be set to incoming port + 1 (and incoming port + 2 for Base64 video messages).
 
-	$ node robot_server 5000 5010 5020
+	$ node robot_server.node 5000 5010 5020
