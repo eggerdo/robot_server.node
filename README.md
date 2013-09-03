@@ -12,11 +12,11 @@ The format of the command, video and event messages is described in the protocol
 
 2. Install the ØMQ library
 
-    $ sudo apt-get install libzmq-dev
+    	$ sudo apt-get install libzmq-dev
         
 3. Install the robot server. Change to the robot_server.node folder and run
 
-    $ npm install
+    	$ npm install
 
 ## Run
 
